@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrew's first coded site</title>
+    <title>LinkedIn Snapshot - Andrew's Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,27 +14,30 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
         }
         h1 {
             color: #333;
-            margin-bottom: 0.5em;
+            margin-bottom: 0.75em;
         }
         p {
-            color: #666;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
         }
         .container {
             background: #fff;
-            padding: 2em 3em;
+            padding: 2.5em 3em;
             border-radius: 12px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.08);
             text-align: center;
+            max-width: 640px;
+            margin: 2em;
         }
-        .nav-links {
+        .link-row {
             display: flex;
             flex-direction: column;
             gap: 0.75em;
-            margin-top: 1.5em;
         }
         .nav-link {
             color: #0066cc;
@@ -44,15 +47,19 @@
         .nav-link:hover {
             text-decoration: underline;
         }
+        .primary-link {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Andrew's first coded site</h1>
-        <p>Welcome! This is a simple site created just for you.</p>
-        <div class="nav-links">
-            <a href="about.html" class="nav-link">Learn more about me →</a>
-            <a href="linkedin.html" class="nav-link">See my LinkedIn snapshot →</a>
+        <h1>LinkedIn Profile Snapshot</h1>
+        <p>Business leader with 18+ years experience building teams and operational frameworks… Experience at Spotter, educated at UCLA Anderson School of Management, based in Los Angeles, and connected with 500+ professionals on LinkedIn.</p>
+        <div class="link-row">
+            <a href="https://www.linkedin.com/in/andrew-coyle-54535a8/" class="nav-link primary-link" target="_blank" rel="noopener noreferrer">Visit my LinkedIn profile →</a>
+            <a href="about.html" class="nav-link">Learn more about me</a>
+            <a href="index.html" class="nav-link">Back to home</a>
         </div>
     </div>
 </body>
