@@ -15,15 +15,18 @@ The site follows a simple multi-page architecture:
 - **linkedin.html** - LinkedIn profile snapshot
 - **movies.html** - Favorite movies list
 - **music-producers.html** - Favorite music producers ranking
+- **philosophers.html** - Philosophy-related content
+- **favorite-books.html** - Favorite books list
 
 ## Styling Patterns
 
 All pages follow consistent styling patterns:
 - Shared CSS embedded in each HTML file (no external stylesheets)
-- Consistent color scheme: `#f4f4f9` background, `#fff` containers, `#0066cc` links
+- Current color scheme: `#FF8F8F` background (coral/salmon), `#fff` containers, `#0066cc` links
 - Flexbox centering with `.container` class for main content
-- `.nav-links` class for navigation with consistent styling
-- Responsive design with `min-height: 100vh` for full viewport coverage
+- `.nav-links` class for navigation with consistent styling and vertical layout
+- Full viewport coverage with `height: 100vh` on body
+- Consistent typography using Arial sans-serif font family
 
 ## Development Workflow
 
@@ -47,4 +50,4 @@ When adding new pages:
 The repository uses feature branches for new content:
 - `main` - stable branch
 - Feature branches for individual pages (e.g., `music-producers-page`)
-- Clean commit messages following existing patterns
+- Clean commit messages following existing patterns! 
