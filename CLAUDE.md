@@ -50,4 +50,4 @@ When adding new pages:
 The repository uses feature branches for new content:
 - `main` - stable branch
 - Feature branches for individual pages (e.g., `music-producers-page`)
-- Clean commit messages following existing patterns! 
+- Clean commit messages following existing patterns as necessary. 
